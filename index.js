@@ -179,4 +179,4 @@ message.channel.send(embed).then(message => {message.delete(7000)});
   }
 
 });
-bot.login(process.env.TOKEN);
+bot.login(process.env.BOT_TOKEN);
