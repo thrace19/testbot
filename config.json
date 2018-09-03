@@ -1,0 +1,10 @@
+{
+  "welcome": {
+      "enabled": true,
+      "message": "Welcome {user} to {server} 🎉 ",
+      "add_role": {
+        "enabled": false,
+        "role": "default"
+      }
+  }
+}
