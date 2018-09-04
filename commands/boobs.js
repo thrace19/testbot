@@ -25,7 +25,7 @@ exports.conf = {
 };
 
 exports.help = {
-    name: "boobs",
+    name: "boobs222556g",
     description: "",
     usage: "loli"
 };
