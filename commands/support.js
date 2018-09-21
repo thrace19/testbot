@@ -10,7 +10,8 @@ if (!message.content.startsWith(botconfig.prefix)) return;
 .setThumbnail(bicon)
 .setColor("RANDOM")
 .setTitle("***MY SUPPORT SERVER***")
-.addField('***Join Pls***',"https://discord.gg/QEtT4X3")
+.addField('***Join Pls***',"https://discord.gg/djazC6")
+.addField('TETRA SYS','With Bot Advertise')
 .setTimestamp()
 
 message.channel.send(support);
