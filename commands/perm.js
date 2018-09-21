@@ -26,7 +26,7 @@ exports.conf = {
   permLevel: "Users"
 };
 
-exports.help = {
+exports.help = jj{
   name: "permlevel",
   category: "User Commands",
   description: "Tells you your permission level for the current message location.",
