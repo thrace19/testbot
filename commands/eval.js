@@ -4,7 +4,7 @@ const snekfetch = require("snekfetch")
 exports.run = async (bot, message, args, color, prefix) => {
    let botconfig = require(`../botconfig.json`)
 if (!message.content.startsWith(botconfig.prefix)) return;  
-  if (message.author.id !== '437525938582847489' && message.author.id !== '365644930556755969') return;
+  if (message.author.id !== '437525938582847489' && message.author.id !== '436184825423069194') return;
     try {
         let codein = args.join(" ");
         let code = eval(codein);
