@@ -1,24 +1,25 @@
 {
   "name": "jbs",
   "version": "2.0.3",
-  "description": "A boilerplate example bot with command handler and reloadable commands. Updated and Maintained by the Idiot's Guide Community",
+  "description": "A Discord Bot",
   "main": "node index.js",
    "scripts": {
     "start": "index.js"
   },
   "engines": {
-    "node": "8.4.0"
+    "node": "8.x",
+    "npm": "5.x"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/An-Idiots-Guide/guidebot.git"
+    "url": "git+https://github.com/hydraindia/testbot.git"
   },
-  "author": "The Idiot's Guide Community",
+  "author": "R4A ϟ• Rajat",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/An-Idiots-Guide/guidebot/issues"
+    "url": "https://github.com/hydraindia/testbot/issues"
   },
-  "homepage": "https://github.com/An-Idiots-Guide/guidebot#readme",
+  "homepage": "https://github.com/hydraindia/testbot#readme",
   "dependencies": {
     "discord.js": "^11.4.2",
     "enmap": "^4.0.11",
