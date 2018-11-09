@@ -8,7 +8,6 @@ if(!message.guild.me.hasPermission("MANAGE_MESSAGES")) return message.channel.se
 if(`${args[0]}`> 100) return message.channel.send(`Limit Is 100.`)
   
  message.channel.bulkDelete(`${args[0]}`).catch(error => console.log(error.stack));
-})
  message.channel.send(`Cleared ${args[0]} messages for now ok.`).then(msg => msg.delete(5000));
 }
 module.exports.help = {
