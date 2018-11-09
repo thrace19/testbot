@@ -2,9 +2,9 @@
   "name": "jbs",
   "version": "2.0.3",
   "description": "A Discord Bot",
-  "main": "node index.js",
+  "main": "index.js",
    "scripts": {
-    "start": "index.js"
+    "start": "node index.js"
   },
   "engines": {
     "node": "8.x",
@@ -56,7 +56,6 @@
     "ffmpeg": "^0.0.4",
     "fluent-ffmpeg": "^2.1.2",
     "sqlite": "^3.0.0",
-    "weeb.js": "^1.6.2",
     "figlet": "^1.2.0",
     "superagent": "^3.8.3"
   }
